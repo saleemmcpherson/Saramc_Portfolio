@@ -14,8 +14,16 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test": "jest",
+    "pretty": "prettier --write --tab-width 4 \"src/**/*.js\"",
+    "precommit": "lint-staged && npm test"
+},
+"lint-staged": {
+    "*.js": [
+        "npm run pretty",
+        "git add"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,6 +41,8 @@
     ]
   },
   "devDependencies": {
-    "prettier": "1.19.1"
+    "husky": "^4.2.3",
+    "prettier": "1.19.1",
+    "pretty-quick": "^2.0.1"
   }
 }
