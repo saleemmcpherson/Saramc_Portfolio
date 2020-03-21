@@ -4,7 +4,7 @@ export class Main extends Component {
   render() {
     return (
       <div style={{ backgroundColor: "tomato" }}>
-        this will be main content area for site
+        {this.props.title}
       </div>
     );
   }
