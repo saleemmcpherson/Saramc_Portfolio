@@ -1,0 +1,23 @@
+{
+    "socialMedia":[
+        {
+            "siteName": "twitter",
+            "siteUrl": "https://twitter.com/SaleemMcpherson"
+        },
+        {
+            "siteName": "linkedin",
+            "siteUrl": "https://www.linkedin.com/in/saleemmcpherson/"
+        },
+        {
+            "siteName": "instagram",
+            "siteUrl": "https://www.instagram.com/umaarjones/"
+        },
+        {
+            "siteName": "github",
+            "siteUrl": "https://github.com/saleemmcpherson"
+        }
+
+
+
+    ]
+}
