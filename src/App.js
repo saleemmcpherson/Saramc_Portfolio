@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <MainContainer title="This is where the main content will be"/>
+        <MainContainer title="This is where the main content will be" />
       </div>
     );
   }
