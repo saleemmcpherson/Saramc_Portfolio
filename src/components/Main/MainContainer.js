@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
-import SideNav from "./SideNav/SideNav";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import SideNav from "../SideNav/SideNav";
 
 export class Main extends Component {
   render() {
