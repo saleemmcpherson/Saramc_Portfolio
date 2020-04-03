@@ -5,15 +5,15 @@ export function SocialMedia() {
   console.log(media);
 
   return (
-    <div className="socialMedia">
+    <div className="followMe">
+      <ul>
       {media.map(site => (
-        <ul>
           <li>
             <a href={site.siteUrl} target="-_blank">
               <i className={"fa fa-" + site.siteName}></i></a>
           </li>
-        </ul>
       ))}
+      </ul>
     </div>
   );
 }

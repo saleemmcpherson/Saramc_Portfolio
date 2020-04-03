@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import SocialMedia from "./SocialMedia";
+import FollowMe from "./FollowMe";
 
 export class SideNav extends Component {
   render() {
     return <div className="sideNav">
-        <SocialMedia/>
+        <FollowMe/>
     </div>;
   }
 }
