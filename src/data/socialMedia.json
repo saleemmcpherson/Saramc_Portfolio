@@ -13,5 +13,9 @@
     {
         "siteName": "github",
         "siteUrl": "https://github.com/saleemmcpherson"
+    },
+    {
+        "siteName": "codepen",
+        "siteUrl": "https://codepen.io/saleemmcpherson/"
     }
 ]
