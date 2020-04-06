@@ -1,16 +1,12 @@
 import React, { Component } from "react";
 import "./styles/App.css";
-import MainContainer from "./components/Main/MainContainer";
-import Footer from "./components/Footer/Footer";
+import About from "./pages/about";
 
 class App extends Component {
   render() {
-    return (
-      <div>
-        <MainContainer title="This is where the main content will be" />
-        <Footer/>
-      </div>
-    );
+    return <div>
+      <About></About>
+    </div>;
   }
 }
 

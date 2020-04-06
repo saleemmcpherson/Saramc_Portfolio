@@ -3,10 +3,11 @@ import FollowMe from "../Footer/FollowMe";
 
 export class Footer extends Component {
   render() {
-    return <div>
-      <FollowMe/>
-    </div>;
-    
+    return (
+      <div>
+        <FollowMe />
+      </div>
+    );
   }
 }
 

@@ -5,7 +5,7 @@ export class Main extends Component {
   render() {
     return (
       <div className="mainContainer">
-        <Header title="this is where the header will be"/>
+        <Header title="this is where the header will be" />
       </div>
     );
   }

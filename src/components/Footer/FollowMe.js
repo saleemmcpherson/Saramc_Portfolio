@@ -7,12 +7,13 @@ export function SocialMedia() {
   return (
     <div className="followMe">
       <ul>
-      {media.map(site => (
+        {media.map(site => (
           <li>
             <a href={site.siteUrl} target="-_blank">
-              <i className={"fa fa-" + site.siteName}></i></a>
+              <i className={"fa fa-" + site.siteName}></i>
+            </a>
           </li>
-      ))}
+        ))}
       </ul>
     </div>
   );
