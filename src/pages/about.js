@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-import MainContainer from "../components/Main/MainContainer";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 export class about extends Component {
   render() {
     return (
       <div>
-        <MainContainer title="This is where the main content will be"/>
+        <Header title="this is where the header will be" />
+        <Footer/>
       </div>
     );
   }
