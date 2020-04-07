@@ -1,11 +1,29 @@
 import React, { Component } from "react";
-import FollowMe from "../Footer/FollowMe";
+
+function SocialMedia() {
+  let media = require("../../data/socialMedia.json");
+  console.log(media);
+
+  return (
+    <div className="followMe">
+      <ul>
+        {media.map(site => (
+          <li>
+            <a href={site.siteUrl} target="-_blank">
+              <i className={"fa fa-" + site.siteName}></i>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
 
 export class Footer extends Component {
   render() {
     return (
       <div>
-        <FollowMe />
+        <SocialMedia />
       </div>
     );
   }

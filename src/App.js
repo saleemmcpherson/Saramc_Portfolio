@@ -5,7 +5,7 @@ import About from "./pages/about";
 class App extends Component {
   render() {
     return <div>
-      <About></About>
+      <About/>
     </div>;
   }
 }
