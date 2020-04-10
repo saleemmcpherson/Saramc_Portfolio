@@ -6,7 +6,7 @@ export class about extends Component {
   render() {
     return (
       <div>
-        <Header title="this is where the header will be" />
+        <Header/>
         <Footer/>
       </div>
     );
