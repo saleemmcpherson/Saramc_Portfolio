@@ -6,8 +6,8 @@ export class about extends Component {
   render() {
     return (
       <div>
-        <Header/>
-        <Footer/>
+        <Header />
+        <Footer />
       </div>
     );
   }
