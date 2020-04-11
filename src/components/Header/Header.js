@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <div>
       <Burger/>
-      {/* <Menu/> */}
+      <Menu/>
     </div>
   );
 };

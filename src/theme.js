@@ -3,8 +3,8 @@
  */
 
 export const theme = {
-  primaryDark: "#38284a",
-  secondaryDark: "#9f6b99ff",
+  primaryBackground: "#38284a",
+  secondaryBackground: "#9f6b99ff",
   primaryLight: "#f8f7ff",
   hover: "#faedfa",
   tablet: "1000px",
