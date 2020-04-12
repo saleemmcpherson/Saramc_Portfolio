@@ -13,7 +13,6 @@ const Menu = ({ open, ...props }) => {
     <StyledMenu open={open} {...props}>
       {navMenu.map(item => (
         <a href={item} tabIndex={tabIndex}>
-          <span></span>
           {item}
         </a>
       ))}

@@ -7,8 +7,8 @@ function SocialMedia() {
   return (
     <div className="followMe">
       <ul>
-        {media.map(site => (
-          <li>
+        {media.map((site) => (
+          <li key={site.id}>
             <a href={site.siteUrl} target="-_blank">
               <i className={"fa fa-" + site.siteName}></i>
             </a>

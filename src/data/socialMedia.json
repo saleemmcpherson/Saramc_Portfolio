@@ -1,21 +1,26 @@
 [{
         "siteName": "twitter",
-        "siteUrl": "https://twitter.com/SaleemMcpherson"
+        "siteUrl": "https://twitter.com/SaleemMcpherson",
+        "id": "smTwitter"
     },
     {
         "siteName": "linkedin",
-        "siteUrl": "https://www.linkedin.com/in/saleemmcpherson/"
+        "siteUrl": "https://www.linkedin.com/in/saleemmcpherson/",
+        "id": "smLinkedin"
     },
     {
         "siteName": "instagram",
-        "siteUrl": "https://www.instagram.com/umaarjones/"
+        "siteUrl": "https://www.instagram.com/umaarjones/",
+        "id": "smInstagram"
     },
     {
         "siteName": "github",
-        "siteUrl": "https://github.com/saleemmcpherson"
+        "siteUrl": "https://github.com/saleemmcpherson",
+        "id": "smGithub"
     },
     {
         "siteName": "codepen",
-        "siteUrl": "https://codepen.io/saleemmcpherson/"
+        "siteUrl": "https://codepen.io/saleemmcpherson/",
+        "id": "smCodepen"
     }
 ]

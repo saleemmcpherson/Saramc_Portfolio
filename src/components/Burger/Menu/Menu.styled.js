@@ -48,7 +48,7 @@ export const StyledMenu = styled.nav`
       // transition: text-color 0.2s linear;
       // transition: background-color 0.5s linear;
 
-      box-shadow: 20px 20px 50px grey;
+      box-shadow: 20px 20px 75px gray;
     }
   }
 `;
