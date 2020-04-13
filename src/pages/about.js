@@ -9,7 +9,7 @@ export class about extends Component {
     return (
       <div>
         <Header />
-        
+
         <Footer />
       </div>
     );

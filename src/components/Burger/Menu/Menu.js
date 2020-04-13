@@ -1,11 +1,10 @@
 import React from "react";
-import { bool } from 'prop-types';
+import { bool } from "prop-types";
 import { StyledMenu } from "./Menu.styled";
 
 const navMenu = ["About", "Portfolio", "Contact"];
 
 const Menu = ({ open, ...props }) => {
-
   const isHidden = open ? true : false;
   const tabIndex = isHidden ? 0 : -1;
 
@@ -21,7 +20,7 @@ const Menu = ({ open, ...props }) => {
 };
 
 Menu.propTypes = {
-  open: bool.isRequired,
-}
+  open: bool.isRequired
+};
 
 export default Menu;

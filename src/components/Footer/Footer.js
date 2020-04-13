@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { StyledFooter } from "./Footer.styled";
 
 function SocialMedia() {
   let media = require("../../data/socialMedia.json");
@@ -7,7 +8,7 @@ function SocialMedia() {
   return (
     <div className="followMe">
       <ul>
-        {media.map((site) => (
+        {media.map(site => (
           <li key={site.id}>
             <a href={site.siteUrl} target="-_blank">
               <i className={"fa fa-" + site.siteName}></i>
@@ -22,9 +23,9 @@ function SocialMedia() {
 export class Footer extends Component {
   render() {
     return (
-      <div>
+      <StyledFooter>
         <SocialMedia />
-      </div>
+      </StyledFooter>
     );
   }
 }
