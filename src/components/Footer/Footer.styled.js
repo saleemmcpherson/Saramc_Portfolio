@@ -12,8 +12,19 @@ justify-content: center;
 .followMe{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 60%;
     justify-content: space-between;
+}
+
+.followMe > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    border: solid 1px ${({ theme }) => theme.primaryDark};
+
 }
 
 `;
