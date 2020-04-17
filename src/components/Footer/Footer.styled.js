@@ -24,7 +24,6 @@ justify-content: center;
     width: 4rem;
     height: 4rem;
     border: solid 1px ${({ theme }) => theme.primaryDark};
-
 }
 
 `;
