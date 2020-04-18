@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.div`
-position: absolute;
-width: 100vw;
+position: fixed;
 display: flex;
-background-color: white;
+width: 70%;
+background: rgba(255,255,255,0.2);
+border-radius: 10px 10px 0 0;
 bottom: 0;
-left: 0;
+left: 20%;
+right; 20%;
 justify-content: center;
 
 .followMe{
