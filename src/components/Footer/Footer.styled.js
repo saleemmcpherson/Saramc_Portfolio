@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledFooter = styled.div`
 position: fixed;
 display: flex;
-width: 70%;
+width: 60%;
 background: rgba(255,255,255,0.2);
 border-radius: 10px 10px 0 0;
 bottom: 0;
