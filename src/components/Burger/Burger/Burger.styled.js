@@ -21,7 +21,7 @@ export const StyledBurger = styled.button`
 
   span {
     width: 2rem;
-    height: 0.25rem;
+    height: 0.10rem;
     background: ${({ theme, open }) =>
       open ? theme.primaryDark : theme.primaryLight};
     border-radius: 10px;
